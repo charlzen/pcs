@@ -20,17 +20,30 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 4vh;
     background:rgb(116, 116, 116);
 }
-nav > ul {
-    margin: 0px; /*removes space between header and navigation bar*/
-    padding: 0px;
-    list-style-type: none;
+
+nav > ul { /*List*/
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
 }
-li {
-    display: inline;
+
+nav > ul > li { /*Individual List Items*/
+    list-style-type: none; /*removes bullets*/
+}
+
+li a {
+    text-decoration: none; /*removes lines under each link*/
+    color: white;
 }
 li a:hover {
-    color: #333;
- }
+    color:black;
+}
+
+.biography {
+    background-color: thistle;
+    text-align: left;
+    float: right;
+}
