@@ -1,6 +1,7 @@
-body {
+*  { /*Previously body*/
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 header {
     color:#FFF; /* text color*/
@@ -9,12 +10,18 @@ header {
 }
 header > h1 {
     margin: 0px; /*removes space from the top of the header*/
+    padding-top: 25px;
 }
 header > p {
     margin: 0px; 
+    padding-bottom: 25px;
 }
 nav{
-    background:rgb(209, 94, 18);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background:rgb(116, 116, 116);
 }
 nav > ul {
     margin: 0px; /*removes space between header and navigation bar*/
