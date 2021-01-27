@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    color:#FFF; /* text color*/
+    background:#333;
+    text-align:center;
+}
+header > h1 {
+    margin: 0px; /*removes space from the top of the header*/
+}
+header > p {
+    margin: 0px; 
+}
+nav{
+    background:rgb(209, 94, 18);
+}
+nav > ul {
+    margin: 0px; /*removes space between header and navigation bar*/
+    padding: 0px;
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+li a:hover {
+    color: #333;
+ }
