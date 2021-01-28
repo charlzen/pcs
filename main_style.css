@@ -52,10 +52,16 @@ li a:hover {
     color:black;
 }
 
+.box {
+    background-color: blue;
+    width: 500px;
+}
 .biography{
     background-color: thistle;
+    width: 600px;
+    display: inline-block;
     position: relative;
-    left: 500px;
+    left: 1200px;
 }
 
 
