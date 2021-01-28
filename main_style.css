@@ -3,25 +3,34 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #E9E3E6;
+}
 header {
     color:#FFF; /* text color*/
-    background:#333;
+    background:#736F72;
     text-align:center;
 }
 header > h1 {
     margin: 0px; /*removes space from the top of the header*/
     padding-top: 25px;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 5px;
+    font-weight: 100;
 }
 header > p {
     margin: 0px; 
     padding-bottom: 25px;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 5px;
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 4vh;
-    background:rgb(116, 116, 116);
+    background:#9A8F97;
 }
 
 nav > ul { /*List*/
@@ -32,6 +41,7 @@ nav > ul { /*List*/
 
 nav > ul > li { /*Individual List Items*/
     list-style-type: none; /*removes bullets*/
+    font-family: 'Crimson Text', serif;
 }
 
 li a {
@@ -42,8 +52,10 @@ li a:hover {
     color:black;
 }
 
-.biography {
+.biography{
     background-color: thistle;
-    text-align: left;
-    float: right;
+    position: relative;
+    left: 500px;
 }
+
+
