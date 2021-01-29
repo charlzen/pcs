@@ -1,3 +1,4 @@
+/*Universal CSS*/
 *  { /*Previously body*/
     margin: 0px;
     padding: 0px;
@@ -20,11 +21,12 @@ header > h1 {
     font-weight: 100;
 }
 header > p {
-    margin: 0px; 
+    margin: 3px; /*removes space between nav bar and header*/
     padding-bottom: 25px;
     font-family: 'Crimson Text', serif;
     letter-spacing: 5px;
 }
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -52,10 +54,13 @@ li a:hover {
     color:black;
 }
 
+/*Home Page CSS*/
 .box {
-    background-color: blue;
+    background-color: #B2B2B2;
     width: 500px;
+    height: 900px;
 }
+
 .biography{
     background-color: thistle;
     width: 600px;
@@ -63,5 +68,13 @@ li a:hover {
     position: relative;
     left: 1200px;
 }
+
+.box2 {
+    background-color: #5c5c5c;
+    width: 1930px;
+    height: 400px;
+}
+
+
 
 
