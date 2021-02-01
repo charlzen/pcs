@@ -1,12 +1,15 @@
 /*Universal CSS*/
 *  { /*Previously body*/
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 
 body {
     background-color: #E9E3E6;
+    height: 100%;
+    width: 100%;
+    
 }
 header {
     color:#FFF; /* text color*/
@@ -28,11 +31,11 @@ header > p {
 }
 
 nav{
+    background:#9A8F97;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 4vh;
-    background:#9A8F97;
 }
 
 nav > ul { /*List*/
@@ -47,32 +50,44 @@ nav > ul > li { /*Individual List Items*/
 }
 
 li a {
-    text-decoration: none; /*removes lines under each link*/
     color: white;
+    text-decoration: none; /*removes lines under each link*/
 }
 li a:hover {
     color:black;
 }
 
 /*Home Page CSS*/
+/*To keep items within the browser display, make the width a percentage of the whole pages width rather than a set pixel amount*/
+
+.container-1{
+    display: flex;
+}
+
 .box {
     background-color: #B2B2B2;
-    width: 500px;
-    height: 900px;
+    width: 30%;
+    height: 700px;
+    margin-right: 20%;
+}
+
+.image{
+    margin-left: -30%;
+    margin-top: 10%;
 }
 
 .biography{
     background-color: thistle;
-    width: 600px;
-    display: inline-block;
-    position: relative;
-    left: 1200px;
+    width: 40%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 .box2 {
     background-color: #5c5c5c;
-    width: 1930px;
-    height: 400px;
+    width: 100%; /*sets width to 100% of the webpage*/
+    height: 200px; /*height must be set in pixels... there are complicated ways to scale to percentages*/
 }
 
 
