@@ -65,31 +65,89 @@ li a:hover {
 }
 
 .box {
-    background-color: #B2B2B2;
-    width: 25%;
+    background-color: #736F72;
+    width: 15%;
     height: 700px;
     margin-right: 20%;
 }
 
 .image{
-    margin-left: -30%;
-    margin-top: 10%;
+    margin-left: -28%;
+    margin-top: 7%;
 }
 
 .biography{
-    background-color: thistle;
+    
+    width: 40%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 2%;
+    padding-bottom: 20%;
+}
+
+.biography > h2 {
+    margin-bottom: 4%;
+}
+.biography > p {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 1.5%;
+}
+
+.box2 {
+    background-color: #5c5c5c;
+    width: 100%; /*sets width to 100% of the webpage*/
+    height: 350px; /*height must be set in pixels... there are complicated ways to scale to percentages*/
+}
+
+.container-2 {
+    display: flex;
+}
+
+.information {
     width: 40%;
     height: 400px;
     margin-left: 10%;
     margin-top: 2%;
 }
 
-.box2 {
-    background-color: #5c5c5c;
-    width: 100%; /*sets width to 100% of the webpage*/
-    height: 200px; /*height must be set in pixels... there are complicated ways to scale to percentages*/
+.information > p {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 1.5%;
+}
+
+.image2{
+    margin-left: 30%;
+    margin-top: 10%;
 }
 
 
 
+/*Books Page CSS*/
 
+.bookcontainer-1 {
+    display: flex;
+}
+
+.bookimage-1 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.booksummary-1 {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.bookcontainer-2 {
+    display: flex;
+}
+
+.bookimage-2 {
+    margin-right: 10%;
+}
+
+.booksummary-2 {
+    margin-left: 10%;
+}
