@@ -59,25 +59,25 @@ li a:hover {
 
 /*Home Page CSS*/
 /*To keep items within the browser display, make the width a percentage of the whole pages width rather than a set pixel amount*/
+/*When selecting an element try to call the parent container first so you can reuse simple names on each page*/
 
 .container-1{
     display: flex;
 }
 
-.box {
+.container-1 > .box {
     background-color: #736F72;
     width: 15%;
     height: 700px;
     margin-right: 20%;
 }
 
-.image{
+.container-1 > .image{
     margin-left: -28%;
     margin-top: 7%;
 }
 
-.biography{
-    
+.container-1 > .biography{
     width: 40%;
     height: 400px;
     margin-left: 10%;
@@ -94,21 +94,33 @@ li a:hover {
     margin-bottom: 1.5%;
 }
 
-.box2 {
+.container-2{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2 > .box2 {
     background-color: #5c5c5c;
     width: 100%; /*sets width to 100% of the webpage*/
     height: 350px; /*height must be set in pixels... there are complicated ways to scale to percentages*/
 }
 
-.container-2 {
+.container-2 > .quote{
+
+}
+
+.container-3 {
     display: flex;
 }
 
 .information {
     width: 40%;
-    height: 400px;
+    height: 200px;
     margin-left: 10%;
-    margin-top: 2%;
+    margin-top: 6%;
+    background-color: rgb(171, 171, 233);
 }
 
 .information > p {
@@ -117,9 +129,10 @@ li a:hover {
     margin-bottom: 1.5%;
 }
 
-.image2{
-    margin-left: 30%;
-    margin-top: 10%;
+.container-3 > .image2{
+    margin-left: 20%;
+    margin-top: 6%;
+    background-color: rgb(171, 171, 233);
 }
 
 
@@ -150,4 +163,16 @@ li a:hover {
 
 .booksummary-2 {
     margin-left: 10%;
+}
+
+/*Featured Read Page CSS*/
+
+.featuredread {
+    width: 45%;
+}
+
+.featuredread > p {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 1.5%;
 }
