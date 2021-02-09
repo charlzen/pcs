@@ -79,10 +79,11 @@ li a:hover {
 
 .container-1 > .biography{
     width: 40%;
-    height: 400px;
+    height: 600px;
     margin-left: 10%;
     margin-top: 2%;
     padding-bottom: 20%;
+    background-color: palevioletred;
 }
 
 .biography > h2 {
@@ -92,6 +93,7 @@ li a:hover {
     font-size: 0.8em;
     line-height: 1.5em;
     margin-bottom: 1.5%;
+    
 }
 
 .container-2{
@@ -137,33 +139,85 @@ li a:hover {
 }
 
 
-
 /*Books Page CSS*/
 
 .bookcontainer-1 {
     display: flex;
+    background-color: palevioletred;
 }
 
 .bookimage-1 {
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 3%;
+    margin-left: 5%;
 }
 
 .booksummary-1 {
-    margin-left: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 40%;
 }
 
+.booksummary-1 > p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 1.5%;
+}
+
+.booksummary-1 > .btn {
+    background-color:#736F72;
+	border-radius:28px; /*changes shape of button*/
+	border:1px solid #736F72;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-left: 40%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+	
+}
 .bookcontainer-2 {
     display: flex;
+    background-color: pink;
 }
 
 .bookimage-2 {
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-top: 3%;
 }
 
 .booksummary-2 {
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 40%;
+}
+
+.booksummary-2 > p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 1.5%;
+}
+
+.booksummary-2 > .btn {
+    background-color:#736F72;
+	border-radius:28px; /*changes shape of button*/
+	border:1px solid #736F72;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-left: 40%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+	
 }
 
 /*Featured Read Page CSS*/
