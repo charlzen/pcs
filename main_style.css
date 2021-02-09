@@ -89,7 +89,7 @@ li a:hover {
     margin-bottom: 4%;
 }
 .biography > p {
-    font-size: 14px;
+    font-size: 0.8em;
     line-height: 1.5em;
     margin-bottom: 1.5%;
 }
@@ -107,7 +107,8 @@ li a:hover {
     height: 350px; /*height must be set in pixels... there are complicated ways to scale to percentages*/
 }
 
-.container-2 > .quote{
+.container-2 > p{
+    background-color: white;
 
 }
 
