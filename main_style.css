@@ -11,6 +11,7 @@ body {
     width: 100%;
     
 }
+
 header {
     color:#FFF; /* text color*/
     background:#736F72;
@@ -57,6 +58,20 @@ li a:hover {
     color:black;
 }
 
+.footer-triangle {
+    width: 100%;
+    height: 0;
+    border-bottom: 100px solid #9A8F97;
+    border-left: 2000px solid transparent;
+    margin-top: 10%;
+}
+
+.footer-rectangle {
+    width: 100%;
+    height: 40px;
+    background-color: #736F72;
+}
+
 /*Home Page CSS*/
 /*To keep items within the browser display, make the width a percentage of the whole pages width rather than a set pixel amount*/
 /*When selecting an element try to call the parent container first so you can reuse simple names on each page*/
@@ -73,17 +88,16 @@ li a:hover {
 }
 
 .container-1 > .image{
-    margin-left: -28%;
+    margin-left: -30%;
     margin-top: 7%;
 }
 
 .container-1 > .biography{
-    width: 40%;
+    width: 55%;
     height: 600px;
     margin-left: 10%;
-    margin-top: 2%;
+    margin-top: 5%;
     padding-bottom: 20%;
-    background-color: palevioletred;
 }
 
 .biography > h2 {
@@ -95,6 +109,24 @@ li a:hover {
     margin-bottom: 1.5%;
     
 }
+
+.biography > .btn {
+    background-color:#736F72;
+	border-radius:28px; /*changes shape of button*/
+	border:1px solid #736F72;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-left: 40%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+	
+}
+
 
 .container-2{
     display: flex;
@@ -109,9 +141,16 @@ li a:hover {
     height: 350px; /*height must be set in pixels... there are complicated ways to scale to percentages*/
 }
 
-.container-2 > p{
-    background-color: white;
+.box2-text{
+    color: white;
 
+}
+
+.box2-text > p {
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .container-3 {
@@ -119,9 +158,9 @@ li a:hover {
 }
 
 .information {
-    width: 40%;
+    width: 35%;
     height: 200px;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 6%;
     background-color: rgb(171, 171, 233);
 }
