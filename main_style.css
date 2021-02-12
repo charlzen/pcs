@@ -9,7 +9,6 @@ body {
     background-color: #E9E3E6;
     height: 100%;
     width: 100%;
-    
 }
 
 header {
@@ -62,7 +61,7 @@ li a:hover {
     width: 100%;
     height: 0;
     border-bottom: 100px solid #9A8F97;
-    border-left: 2000px solid transparent;
+    border-left: 1900px solid transparent;
     margin-top: 10%;
 }
 
@@ -76,23 +75,23 @@ li a:hover {
 /*To keep items within the browser display, make the width a percentage of the whole pages width rather than a set pixel amount*/
 /*When selecting an element try to call the parent container first so you can reuse simple names on each page*/
 
-.container-1{
+.indexcontainer-1{
     display: flex;
 }
 
-.container-1 > .box {
+.indexcontainer-1 > .box{
     background-color: #736F72;
     width: 15%;
     height: 700px;
     margin-right: 20%;
 }
 
-.container-1 > .image{
+.indexcontainer-1 > .image{
     margin-left: -30%;
     margin-top: 7%;
 }
 
-.container-1 > .biography{
+.indexcontainer-1 > .biography{
     width: 55%;
     height: 600px;
     margin-left: 10%;
@@ -128,14 +127,14 @@ li a:hover {
 }
 
 
-.container-2{
+.indexcontainer-2{
     display: flex;
     flex-flow: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.container-2 > .box2 {
+.indexcontainer-2 > .box2 {
     background-color: #5c5c5c;
     width: 100%; /*sets width to 100% of the webpage*/
     height: 350px; /*height must be set in pixels... there are complicated ways to scale to percentages*/
@@ -153,7 +152,7 @@ li a:hover {
     margin-right: 4%;
 }
 
-.container-3 {
+.indexcontainer-3 {
     display: flex;
 }
 
@@ -171,7 +170,7 @@ li a:hover {
     margin-bottom: 1.5%;
 }
 
-.container-3 > .image2{
+.indexcontainer-3 > .image2{
     margin-left: 20%;
     margin-top: 6%;
     background-color: rgb(171, 171, 233);
@@ -227,6 +226,7 @@ li a:hover {
 }
 
 .bookimage-2 {
+    margin-left: 4%;
     margin-right: 5%;
     margin-top: 3%;
 }
@@ -265,6 +265,14 @@ li a:hover {
     margin-top: 1%;
     margin-bottom: 4%;
 	
+}
+
+hr {
+  border:none;
+  border-top:1px solid;/* or bottom */
+  margin:1em auto; 
+  width:80%;
+  margin-top: 2%;
 }
 
 /*Individual Book Page: Everything You Know About Indians Is Wrong*/
@@ -368,8 +376,17 @@ li a:hover {
     display: flex;
 }
 
+/*Texts Page CSS*/
 
+.textscontainer-1 > h2 {
+    margin-left: 44%;
+    margin-top: 1%;
+}
 
+.textscontainer-1 > p {
+    text-align: center;
+    margin-top: 1%;
+}
 
 
 
