@@ -41,7 +41,8 @@ nav{
 nav > ul { /*List*/
     display: flex;
     justify-content: space-around;
-    width: 35%;
+    width: 600px;
+    min-width: 500px;
 }
 
 nav > ul > li { /*Individual List Items*/
@@ -81,20 +82,23 @@ li a:hover {
 
 .indexcontainer-1 > .box{
     background-color: #736F72;
-    width: 15%;
-    height: 700px;
+    width: 400px;
+    min-width: 50px;
+    height: 800px;
     margin-right: 20%;
 }
 
 .indexcontainer-1 > .image{
-    margin-left: -30%;
+    margin-left: -25%;
     margin-top: 7%;
 }
 
 .indexcontainer-1 > .biography{
-    width: 55%;
+    width: 1200px;
+    min-width: 600px;
     height: 600px;
     margin-left: 10%;
+    margin-right: 15%;
     margin-top: 5%;
     padding-bottom: 20%;
 }
@@ -161,7 +165,7 @@ li a:hover {
     height: 200px;
     margin-left: 8%;
     margin-top: 6%;
-    background-color: rgb(171, 171, 233);
+    
 }
 
 .information > p {
@@ -173,7 +177,7 @@ li a:hover {
 .indexcontainer-3 > .image2{
     margin-left: 20%;
     margin-top: 6%;
-    background-color: rgb(171, 171, 233);
+    
 }
 
 
