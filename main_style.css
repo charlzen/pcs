@@ -15,6 +15,7 @@ header {
     color:#FFF; /* text color*/
     background:#736F72;
     text-align:center;
+    min-width: 600px;
 }
 header > h1 {
     margin: 0px; /*removes space from the top of the header*/
@@ -36,6 +37,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 4vh;
+    min-width: 600px;
 }
 
 nav > ul { /*List*/
@@ -58,20 +60,6 @@ li a:hover {
     color:black;
 }
 
-.footer-triangle {
-    width: auto;
-    min-width: 100px;
-    height: 0;
-    border-bottom: 100px solid #9A8F97;
-    border-left: 1900px solid transparent;
-    margin-top: 10%;
-}
-
-.footer-rectangle {
-    width: 100%;
-    height: 40px;
-    background-color: #736F72;
-}
 
 /*Home Page CSS*/
 /*To keep items within the browser display, make the width a percentage of the whole pages width rather than a set pixel amount*/
@@ -96,12 +84,13 @@ li a:hover {
 
 .indexcontainer-1 > .biography{
     width: 1200px;
-    min-width: 600px;
+    min-width: 500px;
     height: 600px;
     margin-left: 10%;
     margin-right: 15%;
     margin-top: 5%;
     padding-bottom: 20%;
+    
 }
 
 .biography > h2 {
@@ -111,7 +100,6 @@ li a:hover {
     font-size: 0.8em;
     line-height: 1.5em;
     margin-bottom: 1.5%;
-    
 }
 
 .biography > .btn {
@@ -131,7 +119,6 @@ li a:hover {
 	
 }
 
-
 .indexcontainer-2{
     display: flex;
     flex-flow: wrap;
@@ -141,7 +128,8 @@ li a:hover {
 
 .indexcontainer-2 > .box2 {
     background-color: #5c5c5c;
-    width: 100%; /*sets width to 100% of the webpage*/
+    width: 1920px; /*sets width to 100% of the webpage*/
+    min-width: 720px;
     height: 350px; /*height must be set in pixels... there are complicated ways to scale to percentages*/
 }
 
@@ -155,21 +143,25 @@ li a:hover {
     margin-top: 6%;
     margin-left: 4%;
     margin-right: 4%;
+    min-width: 400px;
 }
 
 .indexcontainer-3 {
     display: flex;
+    padding-bottom: 5%;
 }
 
 .information {
-    width: 35%;
+    width: 650px;
+    min-width: 550px;
     height: 200px;
     margin-left: 8%;
-    margin-top: 6%;
+    margin-top: 5%;
     
 }
 
 .information > p {
+    
     font-size: 14px;
     line-height: 1.5em;
     margin-bottom: 1.5%;
@@ -177,7 +169,7 @@ li a:hover {
 
 .indexcontainer-3 > .image2{
     margin-left: 20%;
-    margin-top: 6%;
+    margin-top: 4%;
     
 }
 
