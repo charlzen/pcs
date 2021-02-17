@@ -60,6 +60,7 @@ li a:hover {
 
 .footer-triangle {
     width: auto;
+    min-width: 100px;
     height: 0;
     border-bottom: 100px solid #9A8F97;
     border-left: 1900px solid transparent;
