@@ -308,15 +308,15 @@ hr {
 }
 
 .everythingcontainer-1 > .everythingimage-1 {
-    margin-top: 7%;
-    margin-left: -25%;
+    margin-top: 5%;
+    margin-left: -18%;
 }
 
 .everythingcontainer-1 > .bookquote-1 {
     width: 700px;
     min-width: 300px;
     margin-top: 8%;
-    margin-left: 15%;
+    margin-left: 12%;
     text-align: center;
 }
 
@@ -412,10 +412,149 @@ hr {
     display: flex;
 }
 
-.everythingcontainer-3 > .everythingimage-2 {
-    margin-left: 40%;
-    margin-top: 5%;
+.everythingcontainer-3 > .everythingreviews-header {
+    margin-left: 700px;
+    margin-top: 40px;
 }
+
+/*Individual Book Page: Like a Hurricane: The Indian Movement from Alcatraz to Wounded Knee*/
+
+.hurricanecontainer-1 {
+    display: flex;
+}
+
+.hurricanecontainer-1 > .box-1 {
+    background-color: #736F72;
+    width: 400px;
+    min-width: 50px;
+    height: 600px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .hurricaneimage-1 {display:none;}
+    
+
+}
+
+.hurricanecontainer-1 > .hurricaneimage-1 {
+    margin-top: 5%;
+    margin-left: -18%;
+}
+
+.hurricanecontainer-1 > .bookquote-1 {
+    width: 700px;
+    min-width: 300px;
+    margin-top: 8%;
+    margin-left: 12%;
+    text-align: center;
+}
+
+.hurricanecontainer-1 > .bookquote-1 > h2 {
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.hurricanecontainer-1 > .bookquote-1 > p{
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 1.5%;
+    text-align: center;
+}
+
+.hurricanecontainer-1 > .bookquote-1 > .btn {
+    margin: auto;
+    background-color:#736F72;
+	border-radius:28px; /*changes shape of button*/
+	border:1px solid #736F72;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.hurricanecontainer-2 > .box-2 {
+    background-color: #5c5c5c;
+    width: 1920px; /*sets width to 100% of the webpage*/
+    min-width: 720px;
+    height: 500px; /*height must be set in pixels... there are complicated ways to scale to percentages*/
+}
+
+.hurricane-overview {
+    width: 500px;
+    margin-left: 30%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.hurricane-overview > h3 {
+    color: #E9E3E6;
+    margin-bottom: 2%;
+    
+}
+
+.hurricane-overview > p {
+    color: #E9E3E6;
+    
+}
+
+.hurricane-overview > hr{
+    border: 0;
+    margin-top: 2%;
+    height: 1px;
+    background: #E9E3E6;
+    
+}
+
+.hurricane-excerpt {
+    width: 500px;
+    margin-left: 30%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.hurricane-excerpt > h3 {
+    color: #E9E3E6;
+    margin-bottom: 2%;
+    
+}
+
+.hurricane-excerpt > p {
+    color: #E9E3E6;
+    
+}
+
+.hurricane-excerpt > hr{
+    border: 0;
+    margin-top: 2%;
+    height: 1px;
+    background: #E9E3E6;
+    
+}
+
+.hurricanecontainer-3 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.hurricanecontainer-3 > .hurricanereviews-header {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 /*Texts Page CSS*/
 
