@@ -90,19 +90,23 @@ li a:hover {
     margin-right: 15%;
     margin-top: 5%;
     padding-bottom: 20%;
+    text-align: center; /*To align button and text, align text to center in parent div, set button margin to auto, and then text-align each header/paragraph for the side you want it on*/
     
 }
 
 .biography > h2 {
     margin-bottom: 4%;
+    text-align: left;
 }
 .biography > p {
     font-size: 0.8em;
     line-height: 1.5em;
     margin-bottom: 1.5%;
+    text-align: left;
 }
 
 .biography > .btn {
+    margin: auto;
     background-color:#736F72;
 	border-radius:28px; /*changes shape of button*/
 	border:1px solid #736F72;
@@ -113,7 +117,6 @@ li a:hover {
 	padding:10px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
-    margin-left: 40%;
     margin-top: 1%;
     margin-bottom: 4%;
 	
@@ -180,6 +183,13 @@ li a:hover {
     display: flex;
 }
 
+@media screen and (max-width: 600px) {
+
+    .bookimage-1 {display:none;}
+    .bookimage-2 {display: none;}
+
+}
+
 .bookimage-1 {
     margin-top: 3%;
     margin-left: 10%;
@@ -188,18 +198,20 @@ li a:hover {
 .booksummary-1 {
     margin-top: 5%;
     margin-left: 10%;
-    width: 40%;
+    width: 700px;
+    min-width: 550px;
+    text-align: center;
 }
 
 .booksummary-1 > h2 {
-    margin-left: 20%;
-    margin-bottom: 2%;
+    text-align: center;
 }
 
 .booksummary-1 > p {
     font-size: 0.8em;
     line-height: 1.5em;
     margin-bottom: 1.5%;
+    text-align: left;
 }
 
 .booksummary-1 > .btn {
@@ -213,7 +225,7 @@ li a:hover {
 	padding:10px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
-    margin-left: 40%;
+    margin: auto;
     margin-top: 1%;
     margin-bottom: 4%;
 	
@@ -223,16 +235,18 @@ li a:hover {
 }
 
 .bookimage-2 {
-    margin-left: 4%;
+    margin-left: 6%;
     margin-right: 5%;
     margin-top: 3%;
 }
 
 .booksummary-2 {
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 6%;
     margin-right: 8%;
-    width: 40%;
+    width: 700px;
+    min-width: 550px;
+    text-align: center;
 }
 
 .booksummary-2 > h2 {
@@ -245,6 +259,7 @@ li a:hover {
     font-size: 0.8em;
     line-height: 1.5em;
     margin-bottom: 1.5%;
+    text-align: left;
 }
 
 .booksummary-2 > .btn {
@@ -258,7 +273,7 @@ li a:hover {
 	padding:10px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
-    margin-left: 40%;
+    margin: auto;
     margin-top: 1%;
     margin-bottom: 4%;
 	
@@ -277,12 +292,20 @@ hr {
 .everythingcontainer-1 {
     display: flex;
 }
+
 .everythingcontainer-1 > .box-1 {
     background-color: #736F72;
-    width: 25%;
+    width: 400px;
+    min-width: 50px;
     height: 600px;
 }
 
+@media screen and (max-width: 600px) {
+
+    .everythingimage-1 {display:none;}
+    
+
+}
 
 .everythingcontainer-1 > .everythingimage-1 {
     margin-top: 7%;
@@ -290,14 +313,16 @@ hr {
 }
 
 .everythingcontainer-1 > .bookquote-1 {
-    width: 40%;
+    width: 700px;
+    min-width: 300px;
     margin-top: 8%;
-    margin-left: 5%;
+    margin-left: 15%;
+    text-align: center;
 }
 
 .everythingcontainer-1 > .bookquote-1 > h2 {
     margin-bottom: 3%;
-    margin-left: 10%;
+    text-align: center;
 }
 
 .everythingcontainer-1 > .bookquote-1 > p{
@@ -308,7 +333,19 @@ hr {
 }
 
 .everythingcontainer-1 > .bookquote-1 > .btn {
-    margin-left: 44%;
+    margin: auto;
+    background-color:#736F72;
+	border-radius:28px; /*changes shape of button*/
+	border:1px solid #736F72;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-top: 1%;
+    margin-bottom: 4%;
 }
 
 .everythingcontainer-2 > .box-2 {
